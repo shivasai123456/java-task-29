@@ -1,0 +1,18 @@
+Compiler:
+
+C (GNU Compiler): Compiles C code into object files (.obj), backup files (.bak), and executable files (.exe).
+C++ Compiler: Compiles C++ code into object files (.obj) and executable files (.exe).
+Java Compiler (javac): Compiles Java source code (.java files) into bytecode (.class files).
+Interpreter:
+
+The JVM acts as an interpreter for Java bytecode. It interprets the bytecode and converts it into machine code instructions that the underlying hardware can execute.
+JVM Execution:
+
+When running a Java program, you don't give the ".class" extension at the end of the class name. You simply specify the name of the class to run.
+The Java Runtime Environment (JRE) consists of the JVM and necessary libraries to execute Java applications.
+Inside JVM Architecture:
+
+Class Loader: Loads the bytecode (.class) file into JVM memory.
+Bytecode Verifier: Verifies the bytecode to ensure it is valid and does not violate security constraints.
+Just-In-Time (JIT) Compiler/Ahead-Of-Time (AOT) Compilation: These are techniques used by JVM to improve execution speed. JIT compiles bytecode into native machine code at runtime, while AOT compiles bytecode into native machine code ahead of time.
+Security Manager: Enforces security policies to protect the system from malicious code. It controls access to system resources based on the permissions granted to the executing code.
